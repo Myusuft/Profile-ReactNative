@@ -5,6 +5,8 @@ import TaskIcon from "./svg/task.svg";
 import CanvasIcon from "./svg/leads.svg";
 import EyeIcon from "./svg/eye.svg";
 import EyeSlashIcon from "./svg/eyeSlash.svg";
+import BackLogin from "../images/svg/arrowLeft.svg";
+import BackTask from "../images/svg/blackArrowLeft.svg";
 
 export {
   HomeIcon,
@@ -14,6 +16,8 @@ export {
   CanvasIcon,
   EyeIcon,
   EyeSlashIcon,
+  BackLogin,
+  BackTask,
 };
 export default {
   BG_PROFILE: require("./bgProfile.png"),
