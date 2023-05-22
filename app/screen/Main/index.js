@@ -7,6 +7,8 @@ import Home from "../Home";
 import Perform from "../Perform";
 import Task from "../Task";
 import Leads from "../Canvas";
+import CreateTasks from "../createTasks";
+
 import images, {
   HomeIcon,
   ProfileIcon,
@@ -62,7 +64,7 @@ const Main = ({ navigation, route }) => {
         <Tab.Screen name="Task" component={Task} />
         <Tab.Screen
           name="Add"
-          component={Leads}
+          component={CreateTasks}
           options={{
             tabBarStyle: { display: "none" },
           }}

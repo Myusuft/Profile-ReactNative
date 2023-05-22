@@ -33,6 +33,6 @@ const App = () => {
       </Provider>
     </Fragment>
   );
-};
+}
 
 export default App;

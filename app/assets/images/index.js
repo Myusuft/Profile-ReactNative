@@ -31,4 +31,8 @@ export default {
   ARROW: require("./arrow.png"),
   BG_SCREEN: require("./bgscreen.png"),
   ADD_LEADS: require("./addLead.png"),
+  LINE: require("./Line 1.png"),
+  TASK: require("./Task.png"),
+  FLAG: require("./flag.png"),
+
 };
